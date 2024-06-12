@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bài 5</title>
+  </head>
+  <body>
+    <h1>
+      Xếp hạng học lực của học sinh dựa trên các điểm bài kiểm tra, điểm thi
+      giữa kỳ, điểm thi cuối kỳ
+    </h1>
+    <fieldset style="width: 60%;">
+        <legend>Kiểm tra</legend>
+        <label for="" style="margin-left: 10px; ">Chuyên cần</label>
+        <input type="number" id="diligent" style="margin-left: 20px; ">
+        <label for="" style="margin-left: 10px; ">Làm bài tập</label>
+        <input type="number" id="exercise" style="margin-left: 20px; ">
+        <label for="" style="margin-left: 10px; ">Trả bài cũ</label>
+        <input type="number" id="oldlesson" style="margin-left: 20px; ">
+    </fieldset>
+    <br>
+    <fieldset style="width: 60%;">
+        <legend>Giữa kỳ</legend>
+        <label for="">Điểm giữa kì</label>
+        <input type="number" id="midterm" style="margin-left: 20px; ">
+    </fieldset>
+    <br>
+    <fieldset style="width: 60%;">
+        <legend>Cuối kỳ</legend>
+        <label for="">Điểm cuối kì</label>
+        <input type="number" id="finalterm" style="margin-left: 20px; ">
+    </fieldset>
+    <br>
+    <button type="button" id="btn1" style="margin-left: 60%; padding: 10px;">Tính điểm</button> <br>
+    <p id="result" style="font-weight: bold;"></p>
+    <p id="result1" style="font-weight: bold;"></p>
+    <script src="../js/bt5.js"></script>
+  </body>
+</html>
