@@ -7,8 +7,8 @@ function getCheck() {
 
   if (phoneCharges <= 50) {
     Tatol = mandatoryFee + phoneCharges * 6.0;
-  } else if (phoneCharges > 50 && phoneCharges < 150) {
-    Tatol = mandatoryFee + ((phoneCharges - 150) * 4.0 + 50 * 6.0);
+  } else if (phoneCharges > 50 && phoneCharges <= 200) {
+    Tatol = mandatoryFee + ((phoneCharges - 50) * 4.0 + 50 * 6.0);
   } else {
     Tatol = mandatoryFee + ((phoneCharges - 200) * 2.0 + 150 * 4.0 + 50 * 6.0);
   }
