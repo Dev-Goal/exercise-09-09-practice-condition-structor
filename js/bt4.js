@@ -13,7 +13,11 @@ function getCheck() {
       message = "Số thứ 2 có giá trị lớn nhất";
     }
   } else {
-    message = "Số thứ 3 có giá trị lớn nhất";
+    if (number_2 > number_3) {
+      message = "Số thứ 2 có giá trị lớn nhât";
+    } else {
+      message = "Số thứ 3 có giá trị lớn nhất";
+    }
   }
   document.getElementById("result").innerHTML = message;
 }
